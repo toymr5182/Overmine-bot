@@ -79,9 +79,9 @@ const BOTS_CONFIG_FILE = path.join(__dirname, 'bots_config.json')
 const SERVER_CONFIG_FILE = path.join(__dirname, 'server_config.json')
 
 let serverConfig = {
-  host: 'play.amorycraft.com',
+  host: 'play.overmine.online',
   port: 25565,
-  defaultUsername: 'FGOP',
+  defaultUsername: '',
   version: '' // ว่าง = ตรวจเวอร์ชันอัตโนมัติ, หรือใส่เช่น '26.2' / '1.21.8'
 }
 
